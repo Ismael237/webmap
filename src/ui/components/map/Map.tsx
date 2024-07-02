@@ -29,7 +29,7 @@ const createMarkerClusterCustomIcon = function (cluster: MarkerCluster, id: numb
 }
 
 export function Map() {
-    const initialZoom = 16;
+    const initialZoom = 13;
     const initialPosition: LatLngExpression = [3.902790, 11.490127];
     const visibleSchools = useSchoolStore.use.visibleSchools();
     const visiblePharmacies = usePharmacyStore.use.visiblePharmacies();

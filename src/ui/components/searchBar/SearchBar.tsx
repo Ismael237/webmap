@@ -88,7 +88,7 @@ export function SearchBar() {
     }
 
     const handleZoom = (zoomToCoordinates: LatLngExpression) => {
-        const zoomLevel = 20;
+        const zoomLevel = 16;
         map.setView(zoomToCoordinates, zoomLevel, {
             animate: true,
             duration: 1,
