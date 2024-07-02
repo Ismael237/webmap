@@ -1,5 +1,5 @@
 import L, { LatLngExpression, MarkerCluster } from 'leaflet';
-import { LayerGroup, MapContainer, Polygon, TileLayer, Tooltip } from 'react-leaflet';
+import { LayerGroup, MapContainer, TileLayer, Tooltip } from 'react-leaflet';
 import Control from 'react-leaflet-custom-control'
 import { CustomMarker } from '../customMarker/CustomMarker';
 import { useSchoolStore } from '../../../core/domain/usecases/schoolSlice';
@@ -8,7 +8,7 @@ import { useSpontaneousHousingStore } from '../../../core/domain/usecases/sponta
 import { useNeighborhoodStore } from '../../../core/domain/usecases/neighborhoodSlice';
 import { useRoadStore } from '../../../core/domain/usecases/roadSlice';
 import { CustomPolygon } from '../customPolygon/CustomPolygon';
-import { Box, Flex, Text } from '@chakra-ui/react';
+import { Box, Flex, Text, useDisclosure } from '@chakra-ui/react';
 import { CustomZoomControl } from '../customZoomControl/CustomZoomControl.js';
 import { SearchBar } from '../searchBar/SearchBar.js';
 import '../../../assets/css/leaflet.css';
@@ -17,6 +17,10 @@ import { getLayerById, useLayersStore } from '../../../core/infrastructure/local
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import { capitalizeFirstLetter, splitPhraseIntoLines } from '../../../helpers/utils/string.js';
 import { CustomPolyline } from '../customPolyline/CustomPolyline.js';
+import { selectedItemType, useSelectedItemStore } from '../../../core/infrastructure/localSlice/selectedItemSlice.js';
+import { MyDrawer } from '../myDrawer/MyDrawer.js';
+import { SpontaneousHousingInfo } from '../spontaneousHousing/SpontaneousHousingInfo.js';
+import { CircleAreaGroup } from '../circleAreaGroup/CircleAreaGroup.js';
 
 const createMarkerClusterCustomIcon = function (cluster: MarkerCluster, id: number) {
     return L.divIcon({
@@ -29,18 +33,34 @@ const createMarkerClusterCustomIcon = function (cluster: MarkerCluster, id: numb
 }
 
 export function Map() {
-    const initialZoom = 16;
+    const initialZoom = 14;
     const initialPosition: LatLngExpression = [3.902790, 11.490127];
-    const visibleSchools = useSchoolStore.use.visibleSchools();
-    const visiblePharmacies = usePharmacyStore.use.visiblePharmacies();
-    const spontaneousHousings = useSpontaneousHousingStore.use.spontaneousHousings();
+
     const neighborhoods = useNeighborhoodStore.use.neighborhoods();
     const roads = useRoadStore.use.roads();
     const layers = useLayersStore.use.layers();
+    const visibleSchools = useSchoolStore.use.visibleSchools();
+    const visiblePharmacies = usePharmacyStore.use.visiblePharmacies();
+    const spontaneousHousings = useSpontaneousHousingStore.use.spontaneousHousings();
+    const setSelectedItem = useSelectedItemStore.use.setSelectedItem();
 
-    const spontaneousHousingsOptions = { color: getLayerById(2).color };
+    const { isOpen, onOpen, onClose } = useDisclosure();
+
+    const spontaneousHousingsOptions = { 
+        color: getLayerById(2).color 
+    };
     const neighborhoodsOptions = { color: getLayerById(3).color };
     const roadsOptions = { color: getLayerById(4).color };
+
+    const handlePolygonClick = (polygon: selectedItemType) => {
+        setSelectedItem(polygon);
+        onOpen();
+    };
+
+    const onDrawerClose = () => {
+        setSelectedItem(null);
+        onClose()
+    }
 
     const generateMarkerStyle = () => {
         const ids = [0, 1];
@@ -59,7 +79,8 @@ export function Map() {
             <MapContainer
                 center={initialPosition}
                 zoom={initialZoom}
-                maxZoom={25}
+                minZoom={13}
+                maxZoom={18}
                 scrollWheelZoom={true}
             >
                 <TileLayer
@@ -113,14 +134,14 @@ export function Map() {
                         </MarkerClusterGroup>
                     </LayerGroup>
                 )}
-                {layers.find(layer => layer.id === 2 && layer.active) && (
+                {layers.find(layer => layer.id === 4 && layer.active) && (
                     <LayerGroup>
-                        {spontaneousHousings.map((spontaneousHousing) =>
-                        (<Polygon
-                            key={spontaneousHousing.id}
-                            pathOptions={spontaneousHousingsOptions}
-                            positions={spontaneousHousing.geometry.coordinates}
-                        ></Polygon>))}
+                        {roads.map((road) =>
+                        (<CustomPolyline
+                            key={road.osmId}
+                            pathOptions={roadsOptions}
+                            positions={road.geometry.coordinates}
+                        ></CustomPolyline>))}
                     </LayerGroup>
                 )}
                 {layers.find(layer => layer.id === 3 && layer.active) && (
@@ -134,14 +155,16 @@ export function Map() {
                         ></CustomPolygon>))}
                     </LayerGroup>
                 )}
-                {layers.find(layer => layer.id === 4 && layer.active) && (
+                {layers.find(layer => layer.id === 2 && layer.active) && (
                     <LayerGroup>
-                        {roads.map((road) =>
-                        (<CustomPolyline
-                            key={road.osmId}
-                            pathOptions={roadsOptions}
-                            positions={road.geometry.coordinates}
-                        ></CustomPolyline>))}
+                        <CircleAreaGroup />
+                        {spontaneousHousings.map((spontaneousHousing) =>
+                        (<CustomPolygon
+                            key={spontaneousHousing.id}
+                            pathOptions={spontaneousHousingsOptions}
+                            positions={spontaneousHousing.geometry.coordinates}
+                            onClick={() => handlePolygonClick(spontaneousHousing)}
+                        ></CustomPolygon>))}
                     </LayerGroup>
                 )}
                 <Control prepend position='topleft'>
@@ -158,6 +181,9 @@ export function Map() {
                     <LayerSelector />
                 </Control>
             </MapContainer>
+            <MyDrawer isOpen={isOpen} onClose={onDrawerClose}>
+                <SpontaneousHousingInfo />
+            </MyDrawer>
         </>
     )
 }

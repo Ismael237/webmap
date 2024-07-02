@@ -9,7 +9,7 @@ export const CustomZoomControl = forwardRef<BoxProps, 'div'>((props, ref) => {
     const zoomIn = () => {
         map.setZoom(map.getZoom() + 1);
     };
-
+    
     const zoomOut = () => {
         map.setZoom(map.getZoom() - 1);
     };
