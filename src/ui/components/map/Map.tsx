@@ -1,5 +1,5 @@
 import L, { LatLngExpression, MarkerCluster } from 'leaflet';
-import { LayerGroup, MapContainer, Polygon, Tooltip } from 'react-leaflet';
+import { LayerGroup, MapContainer, Polygon, TileLayer, Tooltip } from 'react-leaflet';
 import Control from 'react-leaflet-custom-control'
 import { CustomMarker } from '../customMarker/CustomMarker';
 import { useSchoolStore } from '../../../core/domain/usecases/schoolSlice';
@@ -29,8 +29,8 @@ const createMarkerClusterCustomIcon = function (cluster: MarkerCluster, id: numb
 }
 
 export function Map() {
-    const initialZoom = 13;
-    const initialPosition: LatLngExpression = [3.892508235524444, 11.498316546028816];
+    const initialZoom = 16;
+    const initialPosition: LatLngExpression = [3.902790, 11.490127];
     const visibleSchools = useSchoolStore.use.visibleSchools();
     const visiblePharmacies = usePharmacyStore.use.visiblePharmacies();
     const spontaneousHousings = useSpontaneousHousingStore.use.spontaneousHousings();
@@ -62,6 +62,10 @@ export function Map() {
                 maxZoom={25}
                 scrollWheelZoom={true}
             >
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
                 {layers.find(layer => layer.id === 0 && layer.active) && (
                     <LayerGroup>
                         <MarkerClusterGroup
@@ -93,10 +97,10 @@ export function Map() {
                                 key={i} id={1}
                                 position={pharmacy.geometry.coordinates}
                             >
-                                <Tooltip 
-                                    offset={[8, 2]} 
-                                    interactive 
-                                    permanent 
+                                <Tooltip
+                                    offset={[8, 2]}
+                                    interactive
+                                    permanent
                                     className={`shape-tooltip shape-tooltip-${1}`}
                                 >
                                     <Flex minH='24px' alignItems='flex-start' direction='column' gap={0}>

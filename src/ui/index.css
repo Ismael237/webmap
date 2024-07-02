@@ -16,9 +16,7 @@
     margin: 0;
 }
 
-.leaflet-tile-container,
-.leaflet-control-zoom,
-.leaflet-control-attribution {
+.leaflet-control-zoom {
     display: none;
 }
 
@@ -35,6 +33,7 @@
     height: auto;
     padding: 0;
     font-weight: 600;
+    font-size: 10px;
     text-shadow:
         1px 1px 0 rgb(255, 255, 255, 0.8),
         -1px 1px 0 rgba(255, 255, 255, 0.8),
@@ -48,7 +47,7 @@
 
 .polygone-name {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 10px;
     text-shadow:
         1px 1px 0 rgba(255, 255, 255, 1),
         -1px 1px 0 rgba(255, 255, 255, 1),
