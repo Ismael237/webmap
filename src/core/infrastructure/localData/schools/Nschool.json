@@ -1,0 +1,1418 @@
+[
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "bilingual primary school Christs winners mbankolo I",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Anglophone",
+            "nbre_eleve": 150,
+            "nbre_ensei": 20,
+            "Nombre_de_": 12,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4919648,
+                3.9045248
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Bless bilingual nursery and primary school",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 300,
+            "nbre_ensei": 20,
+            "Nombre_de_": 18,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4887098,
+                3.8839992
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Centre educatif primaire bilingue franckton",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 204,
+            "nbre_ensei": 15,
+            "Nombre_de_": 12,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4856979,
+                3.897168
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "complexe international",
+            "Categorie": "Priv�e",
+            "Type": "mternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 56,
+            "nbre_ensei": 8,
+            "Nombre_de_": 8,
+            "Latrine": 2,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4935233,
+                3.8959427
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Complexe scolaire  bilingue Christ s winners Mbankolo II",
+            "Categorie": "Priv�e",
+            "Type": "primaire et maternelle",
+            "Section": "Anglophone",
+            "nbre_eleve": 204,
+            "nbre_ensei": 12,
+            "Nombre_de_": 9,
+            "Latrine": 5,
+            "Eau": true,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4924529,
+                3.9052464
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Complexe scolaire  bilingue inernaltional La clairi�ere",
+            "Categorie": "Priv�e",
+            "Type": "primaire et maternelle",
+            "Section": "Anglophone",
+            "nbre_eleve": 240,
+            "nbre_ensei": 9,
+            "Nombre_de_": 10,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": true,
+            "Salle_d_in": null,
+            "Quartier e": "ntougou"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5038423,
+                3.898045
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "complexe scolaire bilingue notre dame de lorette",
+            "Categorie": "Priv�e",
+            "Type": "Primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 260,
+            "nbre_ensei": 15,
+            "Nombre_de_": 14,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.485555,
+                3.8852739
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Complexe scolaire international  primaire",
+            "Categorie": "Priv�e",
+            "Type": "Primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 135,
+            "nbre_ensei": 6,
+            "Nombre_de_": 6,
+            "Latrine": 2,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4934433,
+                3.8962503
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Complexe scolaire jean Body Zibi",
+            "Categorie": "Priv�e",
+            "Type": "Primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 206,
+            "nbre_ensei": 8,
+            "Nombre_de_": 7,
+            "Latrine": 2,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4913837,
+                3.8966541
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Complexe scolaire les coccinelles de mbankolo",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 420,
+            "nbre_ensei": 10,
+            "Nombre_de_": 20,
+            "Latrine": 8,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4934704,
+                3.8962863
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Complexes scolaire  bilingue Christ s winners Mbankolo III",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 389,
+            "nbre_ensei": 20,
+            "Nombre_de_": 9,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4924529,
+                3.9052464
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole  primaire bilingue Tchuinou -Sagesse",
+            "Categorie": "Priv�e",
+            "Type": "primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 474,
+            "nbre_ensei": 12,
+            "Nombre_de_": 10,
+            "Latrine": 3,
+            "Eau": false,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "nkom-kana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4858483,
+                3.8809346
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "ecole  publique  nouvelle jerusalem",
+            "Categorie": "Priv�e",
+            "Type": "primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 150,
+            "nbre_ensei": 6,
+            "Nombre_de_": 6,
+            "Latrine": 5,
+            "Eau": true,
+            "Electricit": false,
+            "Salle_d_in": true,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4878738,
+                3.8842909
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole bilingue  The Amazing grace",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Anglophone",
+            "nbre_eleve": 350,
+            "nbre_ensei": 14,
+            "Nombre_de_": 9,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "nkom-kana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4953255,
+                3.8845129
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole bilingue try winners",
+            "Categorie": "Priv�e",
+            "Type": "primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 102,
+            "nbre_ensei": 20,
+            "Nombre_de_": 12,
+            "Latrine": 2,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "nkom-kana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4940966,
+                3.8858633
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "ecole bilingue rosa park",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 540,
+            "nbre_ensei": 20,
+            "Nombre_de_": 9,
+            "Latrine": 4,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": null,
+            "Quartier e": "nkom-kana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4926487,
+                3.8892298
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole catholique sacr� c�ur  de mokolo 1",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 330,
+            "nbre_ensei": 20,
+            "Nombre_de_": 18,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "mokolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4961797,
+                3.8750834
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "ecole college bethel Mbankolo Febe village",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 350,
+            "nbre_ensei": 9,
+            "Nombre_de_": 3,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": true,
+            "Quartier e": "F�be"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4745841,
+                3.9125302
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole Intl. bilingue",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 200,
+            "nbre_ensei": 18,
+            "Nombre_de_": 18,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4890564,
+                3.8855528
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "ecole maternelle bilingue Lorette",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 60,
+            "nbre_ensei": 5,
+            "Nombre_de_": 4,
+            "Latrine": 2,
+            "Eau": true,
+            "Electricit": false,
+            "Salle_d_in": true,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4856437,
+                3.8848398
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "ecole primaire  bilingue les armandins",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 642,
+            "nbre_ensei": 24,
+            "Nombre_de_": 12,
+            "Latrine": 8,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "madagascar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4841942,
+                3.8784359
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "ecole primaire  bilingue les armandins",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 642,
+            "nbre_ensei": 24,
+            "Nombre_de_": 12,
+            "Latrine": 8,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "madagascar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4985429,
+                3.8831205
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole maternelle bilingue Tchuinou -Sagesse",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 200,
+            "nbre_ensei": 20,
+            "Nombre_de_": 18,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": false,
+            "Salle_d_in": true,
+            "Quartier e": "cari�rre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4858483,
+                3.8809346
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole maternelle d application du camp bove",
+            "Categorie": "Publique",
+            "Type": "Maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 1200,
+            "nbre_ensei": 42,
+            "Nombre_de_": 39,
+            "Latrine": 6,
+            "Eau": false,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "grand messa"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5121746,
+                3.8704806
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole maternelle des sources",
+            "Categorie": "Publique",
+            "Type": "Maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 130,
+            "nbre_ensei": 3,
+            "Nombre_de_": 4,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4889368,
+                3.8815943
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole maternelle le bon berger",
+            "Categorie": "Priv�e",
+            "Type": "maternelle",
+            "Section": "Anglophone",
+            "nbre_eleve": 90,
+            "nbre_ensei": 8,
+            "Nombre_de_": 4,
+            "Latrine": 1,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4908849,
+                3.8983909
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole maternelle publique groupe AB de la cité verte",
+            "Categorie": "Publique",
+            "Type": "Maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 180,
+            "nbre_ensei": 10,
+            "Nombre_de_": 8,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "cit� verte"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4906277,
+                3.875154
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole maternelle publique de madagascar",
+            "Categorie": "Publique",
+            "Type": "Maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 189,
+            "nbre_ensei": 6,
+            "Nombre_de_": 6,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "madagascar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4950087,
+                3.8808352
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole publique de Messa",
+            "Categorie": "Publique",
+            "Type": "primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 800,
+            "nbre_ensei": 28,
+            "Nombre_de_": 18,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "grand messa"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.505245,
+                3.8732669
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole maternelle publique de Tsinga - oliga",
+            "Categorie": "Publique",
+            "Type": "maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 102,
+            "nbre_ensei": 12,
+            "Nombre_de_": 8,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "Tsinga"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4964994,
+                3.8920112
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "ecole primaire publique  Aet B de la cite verte",
+            "Categorie": "Publique",
+            "Type": "Primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 234,
+            "nbre_ensei": 10,
+            "Nombre_de_": 7,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "cit� verte"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4906095,
+                3.8751089
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole primaire publique camp Bove",
+            "Categorie": "Publique",
+            "Type": "Primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 1200,
+            "nbre_ensei": 42,
+            "Nombre_de_": 28,
+            "Latrine": 6,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "grand messa"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5122553,
+                3.8703719
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole publique de Madagascar",
+            "Categorie": "Publique",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 1008,
+            "nbre_ensei": 28,
+            "Nombre_de_": 22,
+            "Latrine": 6,
+            "Eau": false,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "madagascar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4950087,
+                3.8808352
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole primaire St Esprit Etetak",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 156,
+            "nbre_ensei": 6,
+            "Nombre_de_": 6,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "cari�rre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4827644,
+                3.8787835
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole primaire bilingue les armandins",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 702,
+            "nbre_ensei": 20,
+            "Nombre_de_": 18,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "cari�rre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4985429,
+                3.8831205
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole public de Tsinga olinga A &B",
+            "Categorie": "Publique",
+            "Type": "primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 1356,
+            "nbre_ensei": 18,
+            "Nombre_de_": 13,
+            "Latrine": 6,
+            "Eau": false,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "Tsinga"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4962213,
+                3.8923013
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole publique cit� verte",
+            "Categorie": "Publique",
+            "Type": "primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 600,
+            "nbre_ensei": 20,
+            "Nombre_de_": 12,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "cit� verte"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4903032,
+                3.8749652
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole publique maternelle Ekoudou",
+            "Categorie": "Publique",
+            "Type": "Maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 90,
+            "nbre_ensei": 8,
+            "Nombre_de_": 6,
+            "Latrine": 2,
+            "Eau": true,
+            "Electricit": false,
+            "Salle_d_in": true,
+            "Quartier e": "briqueterie"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5083406,
+                3.8763669
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole primaire publique Ekoudou",
+            "Categorie": "Publique",
+            "Type": "Primaires et maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 1200,
+            "nbre_ensei": 34,
+            "Nombre_de_": 36,
+            "Latrine": 8,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "briqueterie"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5083559,
+                3.8785089
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole publique Febe",
+            "Categorie": "Publique",
+            "Type": "primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 343,
+            "nbre_ensei": 7,
+            "Nombre_de_": 8,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": true,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4810719,
+                3.8969919
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole publique de Messa",
+            "Categorie": "Publique",
+            "Type": "Primaire",
+            "Section": "Francophone",
+            "nbre_eleve": 800,
+            "nbre_ensei": 28,
+            "Nombre_de_": 18,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "grand messa"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.505245,
+                3.8732669
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Fairworld lay private bilingual nursery  school",
+            "Categorie": "Priv�e",
+            "Type": "primaire et maternelle",
+            "Section": "Anglophone",
+            "nbre_eleve": 80,
+            "nbre_ensei": 6,
+            "Nombre_de_": 4,
+            "Latrine": 2,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "Mbankolo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4931269,
+                3.901864
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Genuis Intelligence Schools",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Anglophone",
+            "nbre_eleve": 200,
+            "nbre_ensei": 15,
+            "Nombre_de_": 10,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "nkom-kana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4947876,
+                3.8882654
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Government English nursery Gens Ekoudou",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Anglophone",
+            "nbre_eleve": 600,
+            "nbre_ensei": 32,
+            "Nombre_de_": 18,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "ekoudou"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5082008,
+                3.8777863
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe Scolaire  Bilingue Elohim",
+            "Categorie": "Priv�e",
+            "Type": "primaire",
+            "Section": "bilingue",
+            "nbre_eleve": 503,
+            "nbre_ensei": 14,
+            "Nombre_de_": 15,
+            "Latrine": 3,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "F�be"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4808699,
+                3.9140119
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe scolaire bilingue Bethlehem",
+            "Categorie": "Priv�e laic",
+            "Type": "Maternelle et primaire",
+            "Section": "Anglophone-francophone",
+            "nbre_eleve": 405,
+            "nbre_ensei": 17,
+            "Nombre_de_": 12,
+            "Latrine": 6,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "nkom-kana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4948775,
+                3.885174
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe scolaire bilingue Dominion",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 150,
+            "nbre_ensei": 8,
+            "Nombre_de_": 7,
+            "Latrine": 2,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": true,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4813798,
+                3.8822945
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe Scolaire bilingue DUMASI",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 369,
+            "nbre_ensei": 26,
+            "Nombre_de_": 18,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "nkom-kana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4921393,
+                3.8843054
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe scolaire bilingue la gloire",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 480,
+            "nbre_ensei": 20,
+            "Nombre_de_": 18,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4880582,
+                3.8857998
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe scolaire bilingue le merite",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 185,
+            "nbre_ensei": 18,
+            "Nombre_de_": 14,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "messa cari�rre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4912976,
+                3.882681
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe Scolaire bilingue le printemps",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 215,
+            "nbre_ensei": 18,
+            "Nombre_de_": 14,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "messa cari�rre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4907714,
+                3.8842824
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe scolaire bilingue priv� Laic Melven",
+            "Categorie": "Priv�e laic",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 280,
+            "nbre_ensei": 16,
+            "Nombre_de_": 14,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": true,
+            "Quartier e": "cari�rre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4826833,
+                3.8787476
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe scolaire les marjolaines",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 280,
+            "nbre_ensei": 20,
+            "Nombre_de_": 18,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "cit� verte"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.488434,
+                3.8727744
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe scolaire priv� laic  la bergerie",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 308,
+            "nbre_ensei": 18,
+            "Nombre_de_": 18,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.489368,
+                4.4158489
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Institut bilingue sainte claire",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 403,
+            "nbre_ensei": 10,
+            "Nombre_de_": 12,
+            "Latrine": 4,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4899546,
+                3.8911268
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "New jerusalem biliingual nursery and primary school",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 305,
+            "nbre_ensei": 9,
+            "Nombre_de_": 10,
+            "Latrine": 3,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4872602,
+                3.8837233
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "St marcelin bilingual Academy",
+            "Categorie": "Priv�e",
+            "Type": "Maternelle et primaire",
+            "Section": "Bilingue",
+            "nbre_eleve": 89,
+            "nbre_ensei": 9,
+            "Nombre_de_": 10,
+            "Latrine": 3,
+            "Eau": false,
+            "Electricit": false,
+            "Salle_d_in": false,
+            "Quartier e": "messa angono"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4884507,
+                3.8876877
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Ecole maternelle et primaire FUGOBEC",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Francophone",
+            "nbre_eleve": 206,
+            "nbre_ensei": 12,
+            "Nombre_de_": 9,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": false,
+            "Salle_d_in": true,
+            "Quartier e": "ecole de police"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5064119,
+                3.884498
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Nom_ecole": "Groupe scolaire les  majolaines",
+            "Categorie": "Priv�e",
+            "Type": "Primaire et maternelle",
+            "Section": "Bilingue",
+            "nbre_eleve": 102,
+            "nbre_ensei": 12,
+            "Nombre_de_": 9,
+            "Latrine": 3,
+            "Eau": true,
+            "Electricit": true,
+            "Salle_d_in": false,
+            "Quartier e": "cit� verte"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.488524,
+                3.8727741
+            ]
+        }
+    }
+]

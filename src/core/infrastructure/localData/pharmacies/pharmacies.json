@@ -1,0 +1,244 @@
+[
+  {
+    "id": "100D23",
+    "name": "Pharmacie BiWOLO ABONDO",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8960905,
+        11.4926747
+      ]
+    }
+  },
+  {
+    "id": "100D24",
+    "name": "Pharmacie Djeuako(mbankolo)",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.892667,
+        11.4922599
+      ]
+    }
+  },
+  {
+    "id": "100D25",
+    "name": "Pharmacie des sources",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8793919,
+        11.492797
+      ]
+    }
+  },
+  {
+    "id": "100D26",
+    "name": "Pharmacie Moliva",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8781617,
+        11.4947784
+      ]
+    }
+  },
+  {
+    "id": "100D27",
+    "name": "Grande pharmacie Lyonnaise",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8760247,
+        11.4970194
+      ]
+    }
+  },
+  {
+    "id": "100D28",
+    "name": "Pharmacie de la Vie (mokolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8727336,
+        11.5001061
+      ]
+    }
+  },
+  {
+    "id": "100D29",
+    "name": "Pharmacie de la Fidelité (messa)",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8722467,
+        11.5048381
+      ]
+    }
+  },
+  {
+    "id": "100D30",
+    "name": "Pharmacie de la Brique",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8758332,
+        11.5118566
+      ]
+    }
+  },
+  {
+    "id": "100D31",
+    "name": "Pharmacie Ecole de Police",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8782549,
+        11.5105701
+      ]
+    }
+  },
+  {
+    "id": "100D32",
+    "name": "Pharmacie du Verset",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8767662,
+        11.506511
+      ]
+    }
+  },
+  {
+    "id": "100D33",
+    "name": "pharmacie la providence (messa)",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8734126,
+        11.5052473
+      ]
+    }
+  },
+  {
+    "id": "100D34",
+    "name": "Pharmacie kechy madagascar",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8828018,
+        11.4925672
+      ]
+    }
+  },
+  {
+    "id": "100D35",
+    "name": "Pharmcie le Jourdin",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8845858,
+        11.4974702
+      ]
+    }
+  },
+  {
+    "id": "100D36",
+    "name": "Pharmacie Elobi",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8778642,
+        11.5011849
+      ]
+    }
+  },
+  {
+    "id": "100D37",
+    "name": "Pharmacie de Tsinga",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8828079,
+        11.503305
+      ]
+    }
+  },
+  {
+    "id": "100D38",
+    "name": "pharmacie du Lac",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8681267,
+        11.5116317
+      ]
+    }
+  },
+  {
+    "id": "100D39",
+    "name": "pharmacie notre dame",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8854286,
+        11.5024973
+      ]
+    }
+  },
+  {
+    "id": "100D40",
+    "name": "Pharmacie des Congres",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8869735,
+        11.5027076
+      ]
+    }
+  },
+  {
+    "id": "100D41",
+    "name": "Pharmacie Sesame",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.877293,
+        11.484199
+      ]
+    }
+  },
+  {
+    "id": "100D42",
+    "name": "Pharmacie Mongale",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8861944,
+        11.4922463
+      ]
+    }
+  },
+  {
+    "id": "100D42",
+    "name": "pharmacie HORTENSIA",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8814287,
+        11.5064885
+      ]
+    }
+  },
+  {
+    "id": "100D43",
+    "name": "Pharmacie Emmanuel",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8860505,
+        11.4919939
+      ]
+    }
+  }
+]

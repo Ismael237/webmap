@@ -1,0 +1,1241 @@
+[
+  {
+    "schoolName": "bilingual primary school Christs winners mbankolo I",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Anglophone",
+    "studentCount": 150,
+    "teacherCount": 20,
+    "classroomCount": 12,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9045248,
+        11.4919648
+      ]
+    }
+  },
+  {
+    "schoolName": "Bless bilingual nursery and primary school",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 300,
+    "teacherCount": 20,
+    "classroomCount": 18,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8839992,
+        11.4887098
+      ]
+    }
+  },
+  {
+    "schoolName": "Centre educatif primaire bilingue franckton",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 204,
+    "teacherCount": 15,
+    "classroomCount": 12,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.897168,
+        11.4856979
+      ]
+    }
+  },
+  {
+    "schoolName": "complexe international",
+    "category": "Privée",
+    "type": "mternelle",
+    "section": "Bilingue",
+    "studentCount": 56,
+    "teacherCount": 8,
+    "classroomCount": 8,
+    "latrineCount": 2,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8959427,
+        11.4935233
+      ]
+    }
+  },
+  {
+    "schoolName": "Complexe scolaire  bilingue Christ s winners Mbankolo II",
+    "category": "Privée",
+    "type": "primaire et maternelle",
+    "section": "Anglophone",
+    "studentCount": 204,
+    "teacherCount": 12,
+    "classroomCount": 9,
+    "latrineCount": 5,
+    "water": true,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9052464,
+        11.4924529
+      ]
+    }
+  },
+  {
+    "schoolName": "Complexe scolaire  bilingue inernaltional La clairiéere",
+    "category": "Privée",
+    "type": "primaire et maternelle",
+    "section": "Anglophone",
+    "studentCount": 240,
+    "teacherCount": 9,
+    "classroomCount": 10,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": true,
+    "computerRoom": null,
+    "neighborhood": "ntougou",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.898045,
+        11.5038423
+      ]
+    }
+  },
+  {
+    "schoolName": "complexe scolaire bilingue notre dame de lorette",
+    "category": "Privée",
+    "type": "Primaire",
+    "section": "Bilingue",
+    "studentCount": 260,
+    "teacherCount": 15,
+    "classroomCount": 14,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8852739,
+        11.485555
+      ]
+    }
+  },
+  {
+    "schoolName": "Complexe scolaire international  primaire",
+    "category": "Privée",
+    "type": "Primaire",
+    "section": "Francophone",
+    "studentCount": 135,
+    "teacherCount": 6,
+    "classroomCount": 6,
+    "latrineCount": 2,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8962503,
+        11.4934433
+      ]
+    }
+  },
+  {
+    "schoolName": "Complexe scolaire jean Body Zibi",
+    "category": "Privée",
+    "type": "Primaire",
+    "section": "Francophone",
+    "studentCount": 206,
+    "teacherCount": 8,
+    "classroomCount": 7,
+    "latrineCount": 2,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8966541,
+        11.4913837
+      ]
+    }
+  },
+  {
+    "schoolName": "Complexe scolaire les coccinelles de mbankolo",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Francophone",
+    "studentCount": 420,
+    "teacherCount": 10,
+    "classroomCount": 20,
+    "latrineCount": 8,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8962863,
+        11.4934704
+      ]
+    }
+  },
+  {
+    "schoolName": "Complexes scolaire  bilingue Christ s winners Mbankolo III",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 389,
+    "teacherCount": 20,
+    "classroomCount": 9,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": null,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9052464,
+        11.4924529
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole  primaire bilingue Tchuinou -Sagesse",
+    "category": "Privée",
+    "type": "primaire",
+    "section": "Bilingue",
+    "studentCount": 474,
+    "teacherCount": 12,
+    "classroomCount": 10,
+    "latrineCount": 3,
+    "water": false,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "nkom-kana",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8809346,
+        11.4858483
+      ]
+    }
+  },
+  {
+    "schoolName": "ecole  publique  nouvelle jerusalem",
+    "category": "Privée",
+    "type": "primaire",
+    "section": "Francophone",
+    "studentCount": 150,
+    "teacherCount": 6,
+    "classroomCount": 6,
+    "latrineCount": 5,
+    "water": true,
+    "electricity": false,
+    "computerRoom": true,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8842909,
+        11.4878738
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole bilingue  The Amazing grace",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Anglophone",
+    "studentCount": 350,
+    "teacherCount": 14,
+    "classroomCount": 9,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "nkom-kana",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8845129,
+        11.4953255
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole bilingue try winners",
+    "category": "Privée",
+    "type": "primaire",
+    "section": "Bilingue",
+    "studentCount": 102,
+    "teacherCount": 20,
+    "classroomCount": 12,
+    "latrineCount": 2,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "nkom-kana",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8858633,
+        11.4940966
+      ]
+    }
+  },
+  {
+    "schoolName": "ecole bilingue rosa park",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 540,
+    "teacherCount": 20,
+    "classroomCount": 9,
+    "latrineCount": 4,
+    "water": false,
+    "electricity": false,
+    "computerRoom": null,
+    "neighborhood": "nkom-kana",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8892298,
+        11.4926487
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole catholique sacré céur  de mokolo 1",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Francophone",
+    "studentCount": 330,
+    "teacherCount": 20,
+    "classroomCount": 18,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "mokolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8750834,
+        11.4961797
+      ]
+    }
+  },
+  {
+    "schoolName": "ecole college bethel Mbankolo Febe village",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 350,
+    "teacherCount": 9,
+    "classroomCount": 3,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": true,
+    "neighborhood": "Fébe",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9125302,
+        11.4745841
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole Intl. bilingue",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 200,
+    "teacherCount": 18,
+    "classroomCount": 18,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8855528,
+        11.4890564
+      ]
+    }
+  },
+  {
+    "schoolName": "ecole maternelle bilingue Lorette",
+    "category": "Privée",
+    "type": "Maternelle",
+    "section": "Bilingue",
+    "studentCount": 60,
+    "teacherCount": 5,
+    "classroomCount": 4,
+    "latrineCount": 2,
+    "water": true,
+    "electricity": false,
+    "computerRoom": true,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8848398,
+        11.4856437
+      ]
+    }
+  },
+  {
+    "schoolName": "ecole primaire  bilingue les armandins",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 642,
+    "teacherCount": 24,
+    "classroomCount": 12,
+    "latrineCount": 8,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "madagascar",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8784359,
+        11.4841942
+      ]
+    }
+  },
+  {
+    "schoolName": "ecole primaire  bilingue les armandins",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 642,
+    "teacherCount": 24,
+    "classroomCount": 12,
+    "latrineCount": 8,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "madagascar",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8831205,
+        11.4985429
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole maternelle bilingue Tchuinou -Sagesse",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 200,
+    "teacherCount": 20,
+    "classroomCount": 18,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": false,
+    "computerRoom": true,
+    "neighborhood": "cariérre",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8809346,
+        11.4858483
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole maternelle d application du camp bove",
+    "category": "Publique",
+    "type": "Maternelle",
+    "section": "Francophone",
+    "studentCount": 1200,
+    "teacherCount": 42,
+    "classroomCount": 39,
+    "latrineCount": 6,
+    "water": false,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "grand messa",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8704806,
+        11.5121746
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole maternelle des sources",
+    "category": "Publique",
+    "type": "Maternelle",
+    "section": "Francophone",
+    "studentCount": 130,
+    "teacherCount": 3,
+    "classroomCount": 4,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8815943,
+        11.4889368
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole maternelle le bon berger",
+    "category": "Privée",
+    "type": "maternelle",
+    "section": "Anglophone",
+    "studentCount": 90,
+    "teacherCount": 8,
+    "classroomCount": 4,
+    "latrineCount": 1,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8983909,
+        11.4908849
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole maternelle publique groupe AB de la cité verte",
+    "category": "Publique",
+    "type": "Maternelle",
+    "section": "Francophone",
+    "studentCount": 180,
+    "teacherCount": 10,
+    "classroomCount": 8,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "cité verte",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.875154,
+        11.4906277
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole maternelle publique de madagascar",
+    "category": "Publique",
+    "type": "Maternelle",
+    "section": "Francophone",
+    "studentCount": 189,
+    "teacherCount": 6,
+    "classroomCount": 6,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "madagascar",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8808352,
+        11.4950087
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole publique de Messa",
+    "category": "Publique",
+    "type": "primaire",
+    "section": "Francophone",
+    "studentCount": 800,
+    "teacherCount": 28,
+    "classroomCount": 18,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "grand messa",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8732669,
+        11.505245
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole maternelle publique de Tsinga - oliga",
+    "category": "Publique",
+    "type": "maternelle",
+    "section": "Francophone",
+    "studentCount": 102,
+    "teacherCount": 12,
+    "classroomCount": 8,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "Tsinga",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8920112,
+        11.4964994
+      ]
+    }
+  },
+  {
+    "schoolName": "ecole primaire publique  Aet B de la cite verte",
+    "category": "Publique",
+    "type": "Primaire",
+    "section": "Francophone",
+    "studentCount": 234,
+    "teacherCount": 10,
+    "classroomCount": 7,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "cité verte",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8751089,
+        11.4906095
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole primaire publique camp Bove",
+    "category": "Publique",
+    "type": "Primaire",
+    "section": "Francophone",
+    "studentCount": 1200,
+    "teacherCount": 42,
+    "classroomCount": 28,
+    "latrineCount": 6,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "grand messa",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8703719,
+        11.5122553
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole publique de Madagascar",
+    "category": "Publique",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 1008,
+    "teacherCount": 28,
+    "classroomCount": 22,
+    "latrineCount": 6,
+    "water": false,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "madagascar",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8808352,
+        11.4950087
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole primaire St Esprit Etetak",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Francophone",
+    "studentCount": 156,
+    "teacherCount": 6,
+    "classroomCount": 6,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "cariérre",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8787835,
+        11.4827644
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole primaire bilingue les armandins",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 702,
+    "teacherCount": 20,
+    "classroomCount": 18,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "cariérre",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8831205,
+        11.4985429
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole public de Tsinga olinga A &B",
+    "category": "Publique",
+    "type": "primaire",
+    "section": "Francophone",
+    "studentCount": 1356,
+    "teacherCount": 18,
+    "classroomCount": 13,
+    "latrineCount": 6,
+    "water": false,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "Tsinga",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8923013,
+        11.4962213
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole publique cité verte",
+    "category": "Publique",
+    "type": "primaire",
+    "section": "Francophone",
+    "studentCount": 600,
+    "teacherCount": 20,
+    "classroomCount": 12,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "cité verte",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8749652,
+        11.4903032
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole publique maternelle Ekoudou",
+    "category": "Publique",
+    "type": "Maternelle",
+    "section": "Francophone",
+    "studentCount": 90,
+    "teacherCount": 8,
+    "classroomCount": 6,
+    "latrineCount": 2,
+    "water": true,
+    "electricity": false,
+    "computerRoom": true,
+    "neighborhood": "briqueterie",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8763669,
+        11.5083406
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole primaire publique Ekoudou",
+    "category": "Publique",
+    "type": "Primaires et maternelle",
+    "section": "Francophone",
+    "studentCount": 1200,
+    "teacherCount": 34,
+    "classroomCount": 36,
+    "latrineCount": 8,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "briqueterie",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8785089,
+        11.5083559
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole publique Febe",
+    "category": "Publique",
+    "type": "primaire",
+    "section": "Francophone",
+    "studentCount": 343,
+    "teacherCount": 7,
+    "classroomCount": 8,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": true,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8969919,
+        11.4810719
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole publique de Messa",
+    "category": "Publique",
+    "type": "Primaire",
+    "section": "Francophone",
+    "studentCount": 800,
+    "teacherCount": 28,
+    "classroomCount": 18,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "grand messa",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8732669,
+        11.505245
+      ]
+    }
+  },
+  {
+    "schoolName": "Fairworld lay private bilingual nursery  school",
+    "category": "Privée",
+    "type": "primaire et maternelle",
+    "section": "Anglophone",
+    "studentCount": 80,
+    "teacherCount": 6,
+    "classroomCount": 4,
+    "latrineCount": 2,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "Mbankolo",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.901864,
+        11.4931269
+      ]
+    }
+  },
+  {
+    "schoolName": "Genuis Intelligence Schools",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Anglophone",
+    "studentCount": 200,
+    "teacherCount": 15,
+    "classroomCount": 10,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "nkom-kana",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8882654,
+        11.4947876
+      ]
+    }
+  },
+  {
+    "schoolName": "Government English nursery Gens Ekoudou",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Anglophone",
+    "studentCount": 600,
+    "teacherCount": 32,
+    "classroomCount": 18,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "ekoudou",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8777863,
+        11.5082008
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe Scolaire  Bilingue Elohim",
+    "category": "Privée",
+    "type": "primaire",
+    "section": "bilingue",
+    "studentCount": 503,
+    "teacherCount": 14,
+    "classroomCount": 15,
+    "latrineCount": 3,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "Fébe",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9140119,
+        11.4808699
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe scolaire bilingue Bethlehem",
+    "category": "Privée laic",
+    "type": "Maternelle et primaire",
+    "section": "Anglophone-francophone",
+    "studentCount": 405,
+    "teacherCount": 17,
+    "classroomCount": 12,
+    "latrineCount": 6,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "nkom-kana",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.885174,
+        11.4948775
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe scolaire bilingue Dominion",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 150,
+    "teacherCount": 8,
+    "classroomCount": 7,
+    "latrineCount": 2,
+    "water": false,
+    "electricity": false,
+    "computerRoom": true,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8822945,
+        11.4813798
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe Scolaire bilingue DUMASI",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 369,
+    "teacherCount": 26,
+    "classroomCount": 18,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "nkom-kana",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8843054,
+        11.4921393
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe scolaire bilingue la gloire",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 480,
+    "teacherCount": 20,
+    "classroomCount": 18,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8857998,
+        11.4880582
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe scolaire bilingue le merite",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 185,
+    "teacherCount": 18,
+    "classroomCount": 14,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "messa cariérre",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.882681,
+        11.4912976
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe Scolaire bilingue le printemps",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 215,
+    "teacherCount": 18,
+    "classroomCount": 14,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "messa cariérre",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8842824,
+        11.4907714
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe scolaire bilingue privé Laic Melven",
+    "category": "Privée laic",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 280,
+    "teacherCount": 16,
+    "classroomCount": 14,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": true,
+    "neighborhood": "cariérre",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8787476,
+        11.4826833
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe scolaire les marjolaines",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 280,
+    "teacherCount": 20,
+    "classroomCount": 18,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "cité verte",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8727744,
+        11.488434
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe scolaire privé laic  la bergerie",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 308,
+    "teacherCount": 18,
+    "classroomCount": 18,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": null,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.4158489,
+        11.489368
+      ]
+    }
+  },
+  {
+    "schoolName": "Institut bilingue sainte claire",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 403,
+    "teacherCount": 10,
+    "classroomCount": 12,
+    "latrineCount": 4,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8911268,
+        11.4899546
+      ]
+    }
+  },
+  {
+    "schoolName": "New jerusalem biliingual nursery and primary school",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 305,
+    "teacherCount": 9,
+    "classroomCount": 10,
+    "latrineCount": 3,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8837233,
+        11.4872602
+      ]
+    }
+  },
+  {
+    "schoolName": "St marcelin bilingual Academy",
+    "category": "Privée",
+    "type": "Maternelle et primaire",
+    "section": "Bilingue",
+    "studentCount": 89,
+    "teacherCount": 9,
+    "classroomCount": 10,
+    "latrineCount": 3,
+    "water": false,
+    "electricity": false,
+    "computerRoom": false,
+    "neighborhood": "messa angono",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8876877,
+        11.4884507
+      ]
+    }
+  },
+  {
+    "schoolName": "Ecole maternelle et primaire FUGOBEC",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Francophone",
+    "studentCount": 206,
+    "teacherCount": 12,
+    "classroomCount": 9,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": false,
+    "computerRoom": true,
+    "neighborhood": "ecole de police",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.884498,
+        11.5064119
+      ]
+    }
+  },
+  {
+    "schoolName": "Groupe scolaire les  majolaines",
+    "category": "Privée",
+    "type": "Primaire et maternelle",
+    "section": "Bilingue",
+    "studentCount": 102,
+    "teacherCount": 12,
+    "classroomCount": 9,
+    "latrineCount": 3,
+    "water": true,
+    "electricity": true,
+    "computerRoom": false,
+    "neighborhood": "cité verte",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8727741,
+        11.488524
+      ]
+    }
+  }
+]

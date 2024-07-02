@@ -1,0 +1,442 @@
+[
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D23",
+            "nom_Pharma": "Pharmacie BiWOLO ABONDO",
+            "X": 776822.645,
+            "Y": 431051.071,
+            "quartier_p": "Mbankolo",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4926747,
+                3.8960905
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D24",
+            "nom_Pharma": "Pharmacie Djeuako(mbankolo)",
+            "X": 776777.674,
+            "Y": 430672.159,
+            "quartier_p": "Mbankolo",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4922599,
+                3.892667
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D25",
+            "nom_Pharma": "Pharmacie des sources",
+            "X": 776841.688,
+            "Y": 429203.582,
+            "quartier_p": "Madagascar",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.492797,
+                3.8793919
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D26",
+            "nom_Pharma": "Pharmacie Moliva",
+            "X": 777062.283,
+            "Y": 429068.125,
+            "quartier_p": "Madagascar",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4947784,
+                3.8781617
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D27",
+            "nom_Pharma": "Grande pharmacie Lyonnaise",
+            "X": 777312.012,
+            "Y": 428832.417,
+            "quartier_p": "mokolo",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4970194,
+                3.8760247
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D28",
+            "nom_Pharma": "Pharmacie de la Vie (mokolo",
+            "X": 777656.101,
+            "Y": 428469.309,
+            "quartier_p": "Mokolo",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 18.636582345499999
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5001061,
+                3.8727336
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D29",
+            "nom_Pharma": "Pharmacie de la Fidelité (messa)",
+            "X": 778182.12,
+            "Y": 428416.989,
+            "quartier_p": "Grand-Messa",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5048381,
+                3.8722467
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D30",
+            "nom_Pharma": "Pharmacie de la Brique",
+            "X": 778960.901,
+            "Y": 428816.112,
+            "quartier_p": "Briqueterie",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5118566,
+                3.8758332
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D31",
+            "nom_Pharma": "Pharmacie Ecole de Police",
+            "X": 778817.136,
+            "Y": 429083.63,
+            "quartier_p": "Ecole de Police",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5105701,
+                3.8782549
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D32",
+            "nom_Pharma": "Pharmacie du Verset",
+            "X": 778366.551,
+            "Y": 428917.579,
+            "quartier_p": "Briqueterie",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.506511,
+                3.8767662
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D33",
+            "nom_Pharma": "pharmacie la providence (messa)",
+            "X": 778227.216,
+            "Y": 428546.122,
+            "quartier_p": "Grand-Messa",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5052473,
+                3.8734126
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D34",
+            "nom_Pharma": "Pharmacie kechy madagascar",
+            "X": 776815.047,
+            "Y": 429580.778,
+            "quartier_p": "Madagascar",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4925672,
+                3.8828018
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D35",
+            "nom_Pharma": "Pharmcie le Jourdin",
+            "X": 777359.306,
+            "Y": 429779.773,
+            "quartier_p": "Nkom-Kana",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4974702,
+                3.8845858
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D36",
+            "nom_Pharma": "Pharmacie Elobi",
+            "X": 777774.308,
+            "Y": 429037.311,
+            "quartier_p": "Tsinga",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5011849,
+                3.8778642
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D37",
+            "nom_Pharma": "Pharmacie de Tsinga",
+            "X": 778008.294,
+            "Y": 429584.981,
+            "quartier_p": "Tsinga",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.503305,
+                3.8828079
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D38",
+            "nom_Pharma": "pharmacie du Lac",
+            "X": 778938.44,
+            "Y": 427963.382,
+            "quartier_p": "Grand-Messa",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5116317,
+                3.8681267
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D39",
+            "nom_Pharma": "pharmacie notre dame",
+            "X": 777917.676,
+            "Y": 429874.672,
+            "quartier_p": "Tsinga",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5024973,
+                3.8854286
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D40",
+            "nom_Pharma": "Pharmacie des Congres",
+            "X": 777940.543,
+            "Y": 430045.669,
+            "quartier_p": "Tsinga",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5027076,
+                3.8869735
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D41",
+            "nom_Pharma": "Pharmacie Sesame",
+            "X": 775886.905,
+            "Y": 428968.555,
+            "quartier_p": "Carriere",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.484199,
+                3.877293
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D42",
+            "nom_Pharma": "Pharmacie Mongale",
+            "X": 776778.272,
+            "Y": 429956.031,
+            "quartier_p": "Nkom-Kana",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4922463,
+                3.8861944
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D42",
+            "nom_Pharma": "pharmacie HORTENSIA",
+            "X": 778362.521,
+            "Y": 429433.431,
+            "quartier_p": "Tsinga",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.5064885,
+                3.8814287
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id_pharmac": "100D43",
+            "nom_Pharma": "Pharmacie Emmanuel",
+            "X": 776750.272,
+            "Y": 429940.031,
+            "quartier_p": "Nkom-Kana",
+            "F_": null,
+            "NEAR_FID": 0,
+            "NEAR_DIST": 0.0
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.4919939,
+                3.8860505
+            ]
+        }
+    }
+]
