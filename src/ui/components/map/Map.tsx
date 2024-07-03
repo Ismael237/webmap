@@ -8,19 +8,23 @@ import { useSpontaneousHousingStore } from '../../../core/domain/usecases/sponta
 import { useNeighborhoodStore } from '../../../core/domain/usecases/neighborhoodSlice';
 import { useRoadStore } from '../../../core/domain/usecases/roadSlice';
 import { CustomPolygon } from '../customPolygon/CustomPolygon';
-import { Box, Flex, Text, useDisclosure } from '@chakra-ui/react';
-import { CustomZoomControl } from '../customZoomControl/CustomZoomControl.js';
-import { SearchBar } from '../searchBar/SearchBar.js';
+import { Box, Flex, IconButton, Text, useDisclosure } from '@chakra-ui/react';
+import { CustomZoomControl } from '../customZoomControl/CustomZoomControl';
+import { SearchBar } from '../searchBar/SearchBar';
 import '../../../assets/css/leaflet.css';
-import { LayerSelector } from '../layerSelector/LayerSelector.js';
-import { getLayerById, useLayersStore } from '../../../core/infrastructure/localSlice/layerSlice.js';
+import { LayerSelector } from '../layerSelector/LayerSelector';
+import { getLayerById, useLayersStore } from '../../../core/infrastructure/localSlice/layerSlice';
 import MarkerClusterGroup from 'react-leaflet-cluster';
-import { capitalizeFirstLetter, splitPhraseIntoLines } from '../../../helpers/utils/string.js';
-import { CustomPolyline } from '../customPolyline/CustomPolyline.js';
-import { selectedItemType, useSelectedItemStore } from '../../../core/infrastructure/localSlice/selectedItemSlice.js';
-import { MyDrawer } from '../myDrawer/MyDrawer.js';
-import { SpontaneousHousingInfo } from '../spontaneousHousing/SpontaneousHousingInfo.js';
-import { CircleAreaGroup } from '../circleAreaGroup/CircleAreaGroup.js';
+import { capitalizeFirstLetter, splitPhraseIntoLines } from '../../../helpers/utils/string';
+import { CustomPolyline } from '../customPolyline/CustomPolyline';
+import { SelectedItemData, useSelectedItemStore } from '../../../core/infrastructure/localSlice/selectedItemSlice';
+import { MyDrawer } from '../myDrawer/MyDrawer';
+import { SpontaneousHousingInfo } from '../spontaneousHousing/SpontaneousHousingInfo';
+import { CircleAreaGroup } from '../circleAreaGroup/CircleAreaGroup';
+import { SelectedItemCircle } from '../selectedItemCircle/SelectedItemCircle';
+import { BurgerIcon } from '../icons/burgerIcon/BurgerIcon';
+import { SchoolInfo } from '../schoolInfo/SchoolInfo';
+import { PharmacyInfo } from '../phamarcyInfo/PharmacyInfo';
 
 const createMarkerClusterCustomIcon = function (cluster: MarkerCluster, id: number) {
     return L.divIcon({
@@ -34,6 +38,7 @@ const createMarkerClusterCustomIcon = function (cluster: MarkerCluster, id: numb
 
 export function Map() {
     const initialZoom = 14;
+    const maxZoom = 18;
     const initialPosition: LatLngExpression = [3.902790, 11.490127];
 
     const neighborhoods = useNeighborhoodStore.use.neighborhoods();
@@ -43,22 +48,33 @@ export function Map() {
     const visiblePharmacies = usePharmacyStore.use.visiblePharmacies();
     const spontaneousHousings = useSpontaneousHousingStore.use.spontaneousHousings();
     const setSelectedItem = useSelectedItemStore.use.setSelectedItem();
+    const resetSelectedItem = useSelectedItemStore.use.resetSelectedItem();
 
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const {
+        isOpen: legendIsOpen,
+        onOpen: legendOnOpen,
+        onClose: legendOnClose
+    } = useDisclosure();
 
-    const spontaneousHousingsOptions = { 
-        color: getLayerById(2).color 
+    const spontaneousHousingsOptions = {
+        color: getLayerById(2).color
     };
     const neighborhoodsOptions = { color: getLayerById(3).color };
     const roadsOptions = { color: getLayerById(4).color };
 
-    const handlePolygonClick = (polygon: selectedItemType) => {
-        setSelectedItem(polygon);
+    const handlePolygonClick = (polygon: SelectedItemData) => {
+        setSelectedItem('Polygone', polygon);
+        onOpen();
+    };
+
+    const handleMarkerClick = (marker: SelectedItemData) => {
+        setSelectedItem('Marker', marker);
         onOpen();
     };
 
     const onDrawerClose = () => {
-        setSelectedItem(null);
+        resetSelectedItem();
         onClose()
     }
 
@@ -80,13 +96,14 @@ export function Map() {
                 center={initialPosition}
                 zoom={initialZoom}
                 minZoom={13}
-                maxZoom={18}
+                maxZoom={maxZoom}
                 scrollWheelZoom={true}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
+                <SelectedItemCircle />
                 {layers.find(layer => layer.id === 0 && layer.active) && (
                     <LayerGroup>
                         <MarkerClusterGroup
@@ -96,8 +113,9 @@ export function Map() {
                             {visibleSchools.map((school, i) => (<CustomMarker
                                 key={i} id={0}
                                 position={school.geometry.coordinates}
+                                onClick={() => handleMarkerClick(school)}
                             >
-                                <Tooltip offset={[8, 2]} interactive permanent className={`shape-tooltip shape-tooltip-${0}`}>
+                                <Tooltip offset={[8, -14]} interactive permanent className={`shape-tooltip shape-tooltip-${0}`}>
                                     <Flex direction='column' gap={0}>
                                         {splitPhraseIntoLines(capitalizeFirstLetter(school.schoolName), 20)
                                             .map((lines) => (<Text>{lines}</Text>))}
@@ -117,9 +135,10 @@ export function Map() {
                             (<CustomMarker
                                 key={i} id={1}
                                 position={pharmacy.geometry.coordinates}
+                                onClick={() => handleMarkerClick(pharmacy)}
                             >
                                 <Tooltip
-                                    offset={[8, 2]}
+                                    offset={[16, 2]}
                                     interactive
                                     permanent
                                     className={`shape-tooltip shape-tooltip-${1}`}
@@ -168,21 +187,35 @@ export function Map() {
                     </LayerGroup>
                 )}
                 <Control prepend position='topleft'>
-                    <Box pt='12px' pl='16px'>
+                    <Box pt='12px' px={['12px', null, '16px']}>
                         <SearchBar />
                     </Box>
                 </Control>
                 <Control prepend position='bottomright'>
-                    <Box pb='12px' pr='16px' pos='absolute' bottom='0' right='0'>
+                    <Box pb='12px' px={['12px', null, '16px']} pos='absolute' bottom='0' right='0'>
                         <CustomZoomControl />
                     </Box>
                 </Control>
                 <Control prepend position='topright'>
-                    <LayerSelector />
+                    {!legendIsOpen && (<IconButton
+                        display={['none', null, 'inline-flex']}
+                        w='40px'
+                        h='40px'
+                        colorScheme='teal'
+                        icon={<BurgerIcon />}
+                        aria-label='Open the legend card'
+                        pos='absolute'
+                        top='16px'
+                        right='16px'
+                        onClick={legendOnOpen}
+                    />)}
+                    <LayerSelector isOpen={legendIsOpen} onClose={legendOnClose} />
                 </Control>
             </MapContainer>
             <MyDrawer isOpen={isOpen} onClose={onDrawerClose}>
                 <SpontaneousHousingInfo />
+                <SchoolInfo />
+                <PharmacyInfo />
             </MyDrawer>
         </>
     )

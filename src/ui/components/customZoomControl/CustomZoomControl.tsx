@@ -18,6 +18,7 @@ export const CustomZoomControl = forwardRef<BoxProps, 'div'>((props, ref) => {
         <Flex
             flexDirection='column' gap='0'
             ref={ref} {...props}
+            display={['none', null, 'flex']}
         >
             <IconButton
                 size='sm'

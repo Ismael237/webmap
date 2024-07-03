@@ -20,32 +20,38 @@ export function MyDrawer({ children, isOpen, onClose }: PropsWithChildren<MyDraw
         visible: { y: 0, },
     };
     return (
-        <AnimatePresence>{isOpen &&
-            (<Flex
-                as={motion.div}
-                initial='hidden'
-                animate='visible'
-                exit='hidden'
-                variants={framerVariant}
-                zIndex='1000'
-                pos='absolute'
-                bottom='0' pb='16px'
-                w='100vw'
-                justifyContent='center'
-            >
-                <Flex
-                    p={4} bgColor='white'
-                    borderRadius='base'
-                    w='mzx-content'
-                    border='1px solid'
-                    borderColor='gray.200'
+        <AnimatePresence>
+            {isOpen &&
+                (<Flex
+                    maxH='40svh'
+                    as={motion.div}
+                    variants={framerVariant}
+                    initial='hidden'
+                    animate='visible'
+                    exit='hidden'
+                    zIndex='1000'
+                    pos='absolute'
+                    left='0'
+                    bottom='0' pb='16px'
+                    w='100%' mx={['12px', null, '50px']}
+                    maxW={['calc(100vw - 24px)', null, 'calc(100vw - 100px)']}
+                    justifyContent='center'
                 >
-                    <Flex minW='100px' gap={12} justifyContent='space-between'>
-                        <Box>{children}</Box>
+                    <Flex
+                        pos='relative'
+                        p={4} bgColor='white'
+                        borderRadius='base'
+                        w='mzx-content'
+                        border='1px solid'
+                        borderColor='gray.200'
+                    >
+                        <Flex overflowY='scroll' minW='100px' pr={12}>
+                            <Box>{children}</Box>
+                        </Flex>
                         <IconButton
-                            transform='auto'
-                            translateY='-10px'
-                            translateX='10px'
+                            pos='absolute'
+                            top='4px'
+                            right='4px'
                             size='sm' p='8px'
                             colorScheme='teal'
                             variant='ghost'
@@ -55,8 +61,7 @@ export function MyDrawer({ children, isOpen, onClose }: PropsWithChildren<MyDraw
                         />
                     </Flex>
                 </Flex>
-            </Flex>
-            )}
+                )}
         </AnimatePresence>
     )
 }

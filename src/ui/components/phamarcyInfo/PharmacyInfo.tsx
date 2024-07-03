@@ -1,12 +1,13 @@
 import { Text } from "@chakra-ui/react";
 import { useSelectedItemStore } from "../../../core/infrastructure/localSlice/selectedItemSlice";
+import { capitalizeFirstLetter } from "../../../helpers/utils/string";
 
-export function SpontaneousHousingInfo() {
+export function PharmacyInfo() {
     const selectedItem = useSelectedItemStore.use.selectedItem();
     return (
-        <>{(selectedItem && ('id' in selectedItem.data) && (selectedItem.data.geometry.type !== 'Point')) &&
+        <>{(selectedItem && ('name' in selectedItem.data) && (selectedItem.data.geometry.type === 'Point')) &&
             (<Text>
-                {`Zones d'habitations spontanées #${selectedItem.data.id}`}
+               {capitalizeFirstLetter(selectedItem.data.name)}
             </Text>)
         }</>
     )

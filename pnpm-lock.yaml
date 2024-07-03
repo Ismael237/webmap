@@ -44,6 +44,9 @@ importers:
       leaflet-streetlabels:
         specifier: ^1.0.5
         version: 1.0.5
+      leaflet.markercluster.freezable:
+        specifier: ^1.0.0
+        version: 1.0.0
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -2074,6 +2077,9 @@ packages:
 
   leaflet-streetlabels@1.0.5:
     resolution: {integrity: sha512-Vl49D0r6SDYAm/el+HYZ9hIjxFnjnhoRojcWYE2PnPt51n6EhK6fRxVweFDX5iTPvXb2vrY0aGBLukEc0Kxf2g==}
+
+  leaflet.markercluster.freezable@1.0.0:
+    resolution: {integrity: sha512-lJmJS9EL86BTGFcLtzqolDazWaQGmMp41p1RSTHJvutdbxlMnGOkh66yTqP9YSRt0J6rGLlSgfxYvZQiitldyA==}
 
   leaflet.markercluster@1.5.3:
     resolution: {integrity: sha512-vPTw/Bndq7eQHjLBVlWpnGeLa3t+3zGiuM7fJwCkiMFq+nmRuG3RI3f7f4N4TDX7T4NpbAXpR2+NTRSEGfCSeA==}
@@ -5512,6 +5518,8 @@ snapshots:
       json-buffer: 3.0.1
 
   leaflet-streetlabels@1.0.5: {}
+
+  leaflet.markercluster.freezable@1.0.0: {}
 
   leaflet.markercluster@1.5.3(leaflet@1.9.4):
     dependencies:

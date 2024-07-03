@@ -18,7 +18,7 @@ export const useStandardAreaSurfaceStore = createSelectors(create<StandardAreaSu
             id: 0,
             name: 'pharmacy',
             surface: 300,
-            color: 'red'
+            color: 'green'
         },
         {
             id: 1,
@@ -30,7 +30,16 @@ export const useStandardAreaSurfaceStore = createSelectors(create<StandardAreaSu
             id: 2,
             name: 'primarySchool',
             surface: 5000,
-            color: 'green'
+            color: 'red'
         },
     ],
 })));
+
+export const getStandardAreaById = (id: number) => {
+    const areas = useStandardAreaSurfaceStore.use.standardAreaSurfaces();
+    const areaFound = areas.find(area => area.id === id);
+    if (areaFound) {
+        return areaFound;
+    }
+    return areas[0];
+}

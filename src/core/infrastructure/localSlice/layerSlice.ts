@@ -61,7 +61,6 @@ export const useLayersStore = createSelectors(create<LayersState>()(immer((set) 
     }),
 }))));
 
-
 export const getLayerById = (id: number) => {
     const layers = useLayersStore.use.layers();
     const LayerFound = layers.find(layer => layer.id === id);

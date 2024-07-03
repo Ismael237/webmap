@@ -1,5 +1,6 @@
 import { useForm } from 'react-hook-form';
 import {
+    Box,
     Flex,
     FormControl,
     IconButton,
@@ -10,9 +11,11 @@ import {
     List,
     ListItem,
     Text,
-    useDisclosure
+    useBreakpointValue,
+    useDisclosure,
+    useOutsideClick
 } from '@chakra-ui/react';
-import { ChangeEvent, useEffect, useRef, useState } from 'react';
+import { ChangeEvent, useRef, useState } from 'react';
 import { useSchoolStore } from '../../../core/domain/usecases/schoolSlice';
 import { usePharmacyStore } from '../../../core/domain/usecases/pharmacySlice';
 import { useNeighborhoodStore } from '../../../core/domain/usecases/neighborhoodSlice';
@@ -52,9 +55,15 @@ export function SearchBar() {
 
     const [results, setResults] = useState<CombinedDataType>([]);
 
-
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const isMobile = useBreakpointValue({ base: true, md: false });
+    const { isOpen: isFocused, onOpen: setFocused, onClose: removeFocused } = useDisclosure();
+
     const suggestionRef = useRef<HTMLUListElement>(null);
+    useOutsideClick({
+        ref: suggestionRef,
+        handler: () => onClose(),
+    });
 
     const map = useMap();
 
@@ -105,103 +114,118 @@ export function SearchBar() {
         onClose();
     }
 
+    const handleFocus = () => {
+        setFocused();
+        onOpen();
+    };
 
-    useEffect(() => {
-        const handleClickOutside = (event: MouseEvent) => {
-            if (suggestionRef.current && !suggestionRef.current.contains(event.target as Node)) {
-                onClose();
-            }
-        };
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, [onClose]);
+    const handleBlur = () => {
+        removeFocused();
+    };
 
     return (
-        <Flex flexDirection='column' w='100%' minW='376px'>
-            <form>
-                <Flex>
-                    <FormControl>
-                        <InputGroup>
-                            <InputLeftElement
-                                pointerEvents='none'
-                                h='100%' w='56px'
-                                alignItems='center'
-                                justifyItems='center'
-                            >
-                                <Text w='25px'>
-                                    <SearchIcon />
-                                </Text>
-                            </InputLeftElement>
-                            <Input
-                                {...register('searchQuery', {
-                                    onChange: handleSearchQueryChange,
-                                })}
-                                onFocus={onOpen}
-                                pl='64px' pr='48px' h='48px'
-                                placeholder='Recherché...' bgColor='white'
-                                fontSize='14px'
-                            />
-                            {(watch('searchQuery') && watch('searchQuery').length > 0) &&
-                                (<InputRightElement
-                                    h='100%' w='48px'
+        <Flex flexDirection='column' w='100%' maxW='376px'>
+            {isFocused && isMobile && (
+                <Box
+                    position='fixed'
+                    top='0' left='0'
+                    width='100vw'
+                    height='100svh'
+                    backgroundColor='rgba(0, 0, 0, 0.7)'
+                    zIndex='800'
+                    onClick={handleBlur}
+                />
+            )}
+            <Box pos='relative' zIndex='1000'>
+                <form>
+                    <Flex>
+                        <FormControl>
+                            <InputGroup>
+                                <InputLeftElement
+                                    pointerEvents='none'
+                                    h='100%' w='56px'
                                     alignItems='center'
                                     justifyItems='center'
                                 >
-                                    <IconButton
-                                        onClick={handleResetSearch}
-                                        bgColor='transparent'
-                                        color='blackAlpha.500'
-                                        _hover={{ bgColor: 'none', color: 'teal.400' }}
-                                        _active={{ bgColor: 'none', color: 'teal.500' }}
-                                        p='10px' w='24px'
-                                        icon={<CrossIcon />}
-                                        aria-label='Reset search'
-                                    />
-                                </InputRightElement>)}
+                                    <Text w='25px'>
+                                        <SearchIcon />
+                                    </Text>
+                                </InputLeftElement>
+                                <Input
+                                    {...register('searchQuery', {
+                                        onChange: handleSearchQueryChange,
+                                    })}
+                                    onFocus={handleFocus}
+                                    onBlur={handleBlur}
+                                    pl='64px' pr='48px' h='48px'
+                                    placeholder='Recherché...'
+                                    bgColor='white'
+                                    fontSize='14px'
+                                />
+                                {(watch('searchQuery') && watch('searchQuery').length > 0) &&
+                                    (<InputRightElement
+                                        h='100%' w='48px'
+                                        alignItems='center'
+                                        justifyItems='center'
+                                    >
+                                        <IconButton
+                                            onClick={handleResetSearch}
+                                            bgColor='transparent'
+                                            color='blackAlpha.500'
+                                            _hover={{ bgColor: 'none', color: 'teal.400' }}
+                                            _active={{ bgColor: 'none', color: 'teal.500' }}
+                                            p='10px' w='24px'
+                                            icon={<CrossIcon />}
+                                            aria-label='Reset search'
+                                        />
+                                    </InputRightElement>)}
 
-                        </InputGroup>
-                    </FormControl>
-                </Flex>
-            </form>
-            {(results.length > 0 && isOpen) && (
-                <List
-                    py='12px'
-                    bgColor='white' maxH='314px'
-                    maxW='376px'
-                    spacing={3} mt={2}
-                    borderRadius='base'
-                    overflowY='scroll'
-                    border='1px solid'
-                    borderColor='gray.200'
-                    ref={suggestionRef}
-                >
-                    {results.map((result, index) => (
-                        <ListItem
-                            display='flex'
-                            alignItems='center'
-                            minH='48px'
-                            cursor='pointer'
-                            key={index}
-                            _hover={{ bgColor: 'teal.100' }}
-                            _active={{ bgColor: 'teal.200' }}
-                            onClick={() => HandleSuggestionClick(result)}
-                        >
-                            <IconButton
-                                bgColor='transparent'
-                                pointerEvents='none' w='64px' px='16px'
-                                icon={<BasicMarkerIcon />} aria-label={''}
-                                color='blackAlpha.600'
-                            />
-                            <Text>
-                                {capitalizeFirstLetter(getItemName(result))}
-                            </Text>
-                        </ListItem>
-                    ))}
-                </List>
-            )}
-            <FilterBox />
+                            </InputGroup>
+                        </FormControl>
+                    </Flex>
+                </form>
+                {(results.length > 0 && isOpen) && (
+                    <List
+                        py='12px'
+                        bgColor='white'
+                        maxH='314px'
+                        w='100%'
+                        spacing={3} mt={2}
+                        borderRadius='base'
+                        overflowY='scroll'
+                        border='1px solid'
+                        borderColor='gray.200'
+                        ref={suggestionRef}
+                    >
+                        {results.map((result, index) => (
+                            <ListItem
+                                display='flex'
+                                alignItems='center'
+                                minH='48px'
+                                py='8px'
+                                cursor='pointer'
+                                key={index}
+                                _hover={{ bgColor: 'teal.100' }}
+                                _active={{ bgColor: 'teal.200' }}
+                                onClick={() => HandleSuggestionClick(result)}
+                            >
+                                <IconButton
+                                    bgColor='transparent'
+                                    pointerEvents='none'
+                                    w='64px' px='16px'
+                                    icon={<BasicMarkerIcon />}
+                                    aria-label={''}
+                                    color='blackAlpha.600'
+                                />
+                                <Text pr='20px'>
+                                    {capitalizeFirstLetter(getItemName(result))}
+                                </Text>
+                            </ListItem>
+                        ))}
+                    </List>
+                )}
+                <FilterBox/>
+            </Box>
         </Flex>
     )
 }

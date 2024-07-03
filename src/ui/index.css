@@ -5,14 +5,19 @@
 }
 
 .leaflet-container {
-    height: 100vh;
+    height: 100svh;
     width: 100wh;
     background-color: rgba(137, 153, 136, 0);
     font-family: 'Poppins';
     font-size: 0.85rem;
 }
 
+
 .leaflet-top .leaflet-control {
+    margin: 0;
+}
+
+.leaflet-right .leaflet-control {
     margin: 0;
 }
 
