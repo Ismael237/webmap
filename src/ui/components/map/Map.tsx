@@ -95,7 +95,7 @@ export function Map() {
                 center={initialPosition}
                 zoom={initialZoom}
                 minZoom={13}
-                maxZoom={maxZoom}
+                maxZoom={18}
                 scrollWheelZoom={true}
             >
                 <TileLayer
