@@ -9,7 +9,7 @@ export const CustomZoomControl = forwardRef<BoxProps, 'div'>((props, ref) => {
     const zoomIn = () => {
         map.setZoom(map.getZoom() + 1);
     };
-
+    
     const zoomOut = () => {
         map.setZoom(map.getZoom() - 1);
     };
@@ -18,6 +18,7 @@ export const CustomZoomControl = forwardRef<BoxProps, 'div'>((props, ref) => {
         <Flex
             flexDirection='column' gap='0'
             ref={ref} {...props}
+            display={['none', null, 'flex']}
         >
             <IconButton
                 size='sm'
