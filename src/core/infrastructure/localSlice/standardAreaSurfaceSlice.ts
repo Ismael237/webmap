@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { createSelectors } from '../../store/helper';
+import { darkenHexColor } from '../../../helpers/utils/string';
 
 export interface standardAreaSurface {
     id: number,
@@ -18,7 +19,7 @@ export const useStandardAreaSurfaceStore = createSelectors(create<StandardAreaSu
             id: 0,
             name: 'pharmacy',
             surface: 300,
-            color: 'green'
+            color: darkenHexColor('#14591D', 20)
         },
         {
             id: 1,
@@ -30,7 +31,7 @@ export const useStandardAreaSurfaceStore = createSelectors(create<StandardAreaSu
             id: 2,
             name: 'primarySchool',
             surface: 5000,
-            color: 'red'
+            color: '#A60000',
         },
     ],
 })));

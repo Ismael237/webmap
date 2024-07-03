@@ -35,7 +35,6 @@ export function FilterBox() {
             bgColor='white'
             mt={2} w='100%'
             borderRadius='base'
-            allowMultiple
             ref={filterBoxRef}
             index={isOpen ? 0 : -1}
             border='1px solid' borderColor='gray.200'

@@ -5,7 +5,7 @@ import { calculateRadius } from "../../../helpers/utils/number";
 
 export function SelectedItemCircle() {
     const selectedItem = useSelectedItemStore.use.selectedItem();
-    let areaId = 0
+    let areaId = 0;
     if(selectedItem){
         if('schoolName' in selectedItem.data){
             areaId = 2;

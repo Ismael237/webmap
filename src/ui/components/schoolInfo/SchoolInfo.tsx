@@ -1,15 +1,15 @@
 import { Badge, Box, Flex, IconButton, Text } from '@chakra-ui/react';
 import { useSelectedItemStore } from '../../../core/infrastructure/localSlice/selectedItemSlice';
 import { CrossIcon } from '../icons/crossIcon/CrossIcon';
-import { AddIcon } from '../icons/addIcon/AddIcon';
 import { capitalizeFirstLetter } from '../../../helpers/utils/string';
+import { CheckIcon } from '../icons/checkIcon/CheckIcon';
 
 export function StateIndicator({ state }: { state: boolean }) {
     return (<IconButton
         size='xs' p='2px'
         pointerEvents='none'
         bgColor='transparent'
-        icon={state ? <AddIcon /> : <CrossIcon />}
+        icon={state ? <CheckIcon /> : <CrossIcon />}
         color={state ? 'green.500' : 'red.500'}
         aria-label='State Indicator'
     />)
