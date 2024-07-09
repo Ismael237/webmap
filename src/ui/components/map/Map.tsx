@@ -187,7 +187,7 @@ export function Map() {
                 )}
                 <Control prepend position='topleft'>
                     <Box pt='12px' px={['12px', null, '16px']}>
-                        <SearchBar />
+                        <SearchBar legendIsOpen={legendIsOpen} legendOnOpen={legendOnOpen} />
                     </Box>
                 </Control>
                 <Control prepend position='bottomright'>

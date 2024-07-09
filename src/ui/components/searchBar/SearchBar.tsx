@@ -18,8 +18,6 @@ import {
 import { ChangeEvent, useRef, useState } from 'react';
 import { useSchoolStore } from '../../../core/domain/usecases/schoolSlice';
 import { usePharmacyStore } from '../../../core/domain/usecases/pharmacySlice';
-import { useNeighborhoodStore } from '../../../core/domain/usecases/neighborhoodSlice';
-import { useRoadStore } from '../../../core/domain/usecases/roadSlice';
 import { School } from '../../../core/domain/entities/school';
 import { Pharmacy } from '../../../core/domain/entities/pharmacy';
 import { Neighborhood } from '../../../core/domain/entities/neighborhood';
@@ -31,6 +29,7 @@ import { capitalizeFirstLetter } from '../../../helpers/utils/string';
 import { useMap } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
 import { FilterBox } from '../filterBox/FilterBox';
+import { BurgerIcon } from '../icons/burgerIcon/BurgerIcon';
 
 type Inputs = {
     searchQuery: string,
@@ -38,9 +37,14 @@ type Inputs = {
 
 type CombinedDataItemType = School | Pharmacy | Neighborhood | Road;
 
-type CombinedDataType = (CombinedDataItemType)[]
+type CombinedDataType = (CombinedDataItemType)[];
 
-export function SearchBar() {
+type SearchBarProps = {
+    legendIsOpen: boolean,
+    legendOnOpen: () => void,
+}
+
+export function SearchBar({ legendIsOpen, legendOnOpen }: SearchBarProps) {
     const {
         register,
         setFocus,
@@ -50,8 +54,6 @@ export function SearchBar() {
 
     const visibleSchools = useSchoolStore.use.visibleSchools();
     const visiblePharmacies = usePharmacyStore.use.visiblePharmacies();
-    const neighborhoods = useNeighborhoodStore.use.neighborhoods();
-    const roads = useRoadStore.use.roads();
 
     const [results, setResults] = useState<CombinedDataType>([]);
 
@@ -59,7 +61,8 @@ export function SearchBar() {
     const isMobile = useBreakpointValue({ base: true, md: false });
     const { isOpen: isFocused, onOpen: setFocused, onClose: removeFocused } = useDisclosure();
 
-    const suggestionRef = useRef<HTMLUListElement>(null);
+    const suggestionRef = useRef<HTMLDivElement>(null);
+
     useOutsideClick({
         ref: suggestionRef,
         handler: () => onClose(),
@@ -79,7 +82,7 @@ export function SearchBar() {
     }
 
     const filterData = (searchTerm: string) => {
-        const combinedData: CombinedDataType = [...visibleSchools, ...visiblePharmacies, ...neighborhoods, ...roads];
+        const combinedData: CombinedDataType = [...visibleSchools, ...visiblePharmacies,];
         const filteredResults = combinedData.filter((item) => (
             getItemName(item).toLowerCase().includes(searchTerm.toLowerCase())
         ));
@@ -122,10 +125,10 @@ export function SearchBar() {
     const handleBlur = () => {
         removeFocused();
     };
-
+    
     return (
-        <Flex flexDirection='column' w='100%' maxW='376px'>
-            {isFocused && isMobile && (
+        <Flex ref={suggestionRef} flexDirection='column' w='100%' maxW='376px'>
+            {(legendIsOpen || isFocused) && isMobile && (
                 <Box
                     position='fixed'
                     top='0' left='0'
@@ -138,7 +141,7 @@ export function SearchBar() {
             )}
             <Box pos='relative' zIndex='1000'>
                 <form>
-                    <Flex>
+                    <Flex gap='8px'>
                         <FormControl>
                             <InputGroup>
                                 <InputLeftElement
@@ -161,6 +164,7 @@ export function SearchBar() {
                                     placeholder='Recherché...'
                                     bgColor='white'
                                     fontSize='14px'
+                                    border='none'
                                 />
                                 {(watch('searchQuery') && watch('searchQuery').length > 0) &&
                                     (<InputRightElement
@@ -179,9 +183,15 @@ export function SearchBar() {
                                             aria-label='Reset search'
                                         />
                                     </InputRightElement>)}
-
                             </InputGroup>
                         </FormControl>
+                        {isMobile && (<IconButton
+                            w='48px' h='48px'
+                            colorScheme='teal'
+                            icon={<BurgerIcon />}
+                            aria-label='Open the legend card'
+                            onClick={legendOnOpen}
+                        />)}
                     </Flex>
                 </form>
                 {(results.length > 0 && isOpen) && (
@@ -195,7 +205,6 @@ export function SearchBar() {
                         overflowY='scroll'
                         border='1px solid'
                         borderColor='gray.200'
-                        ref={suggestionRef}
                     >
                         {results.map((result, index) => (
                             <ListItem
@@ -224,7 +233,7 @@ export function SearchBar() {
                         ))}
                     </List>
                 )}
-                <FilterBox/>
+                <FilterBox />
             </Box>
         </Flex>
     )
