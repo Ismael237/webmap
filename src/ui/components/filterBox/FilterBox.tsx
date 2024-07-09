@@ -2,10 +2,12 @@ import { Accordion, AccordionItem, AccordionButton, Box, AccordionIcon, Accordio
 import { useRef, useState } from 'react';
 import { useSchoolStore } from '../../../core/domain/usecases/schoolSlice';
 import { FilterIcon } from '../icons/filterIcon/FilterIcon';
+import { usePharmacyStore } from '../../../core/domain/usecases/pharmacySlice';
 
 export function FilterBox() {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const setFilteredSchools = useSchoolStore.use.setFilteredSchools();
+    const setFilteredPharmacies = usePharmacyStore.use.setFilteredPharmacies();
     const [scheduleId, setScheduleId] = useState(0);
     const filterBoxRef = useRef<HTMLDivElement>(null);
     useOutsideClick({
@@ -22,6 +24,7 @@ export function FilterBox() {
     const handleScheduleClick = (id: number) => {
         setScheduleId(id);
         setFilteredSchools({ schedulesId: id });
+        setFilteredPharmacies({ schedulesId: id });
     }
     const handleAccordionButtonClick = () => {
         if (isOpen) {
@@ -37,7 +40,6 @@ export function FilterBox() {
             borderRadius='base'
             ref={filterBoxRef}
             index={isOpen ? 0 : -1}
-            border='1px solid' borderColor='gray.200'
         >
             <AccordionItem borderRadius='base'>
                 <h2>

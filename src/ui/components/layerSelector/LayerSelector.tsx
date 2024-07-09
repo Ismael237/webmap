@@ -92,7 +92,7 @@ export function LayerSelector({ isOpen, onClose }: LayerSelectorProps) {
                                 colorScheme='teal'
                                 variant='ghost'
                                 icon={<CrossIcon />}
-                                aria-label='Close the legend card'
+                                aria-label='Close/Open the legend card'
                                 onClick={onClose}
                             />
                         </Box>
